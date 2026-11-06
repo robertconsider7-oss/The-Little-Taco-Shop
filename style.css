@@ -1,0 +1,55 @@
+body{
+    background-color: rgba(139, 58, 4, 0.712);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    header{
+        background-color: rgb(248, 248, 248);
+        color: white;
+        padding: 20px;
+    }   
+}
+h1 {
+    color: white;
+    font-size: 50px;
+    margin-top: 20px;
+}
+p{
+    color: white;
+    text-align: center;
+    background-color: red;
+    border: 3px solid rgb(140, 206, 18);
+}
+img{
+    border: 5px solid rgb(140, 206, 18);
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+}
+section[id="menu"]{
+    padding: 20px;
+    margin: 100px;
+}
+/* 4. Navigation menu */
+nav {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #075985;
+    border-radius: 8px;
+}
+
+nav a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 12px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #352b16;
+    color: #17324d;
+}
